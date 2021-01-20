@@ -2,7 +2,7 @@
 // See node_modules/bootstrap/scss/_variables.scss for all variables
 $body-bg: #000;
 $body-color: white;
-$primary: hotpink;
+$primary: rgb(105, 255, 138);
 $font-family-base: Arial;
 
 // Include all Bootstrap
@@ -11,4 +11,10 @@ $font-family-base: Arial;
 // Add you custom CSS
 body {
   padding: 20px;
+}
+h1 {
+  font-size: 100px;
+}
+.container {
+  justify-content: space-around;
 }
